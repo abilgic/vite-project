@@ -1,9 +1,10 @@
-import ListGroup from "./ListGroup";
-
+import Alert from "./Alert";
 function App() {
   return (
     <div>
-      <ListGroup></ListGroup>
+      <Alert>
+        Hello <span>World</span>{" "}
+      </Alert>
     </div>
   );
 }
